@@ -20,7 +20,11 @@
 					</tr>
 				</thead>
 				<tbody>
-					
+					<tr ng-repeat="person in contactList">
+						<td>{{person.name}}</td>
+						<td>{{person.email}}</td>
+						<td>{{person.number}}</td>
+					</tr>
 				</tbody>
 			</table>
 		</div>
